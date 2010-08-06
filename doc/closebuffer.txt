@@ -1,3 +1,6 @@
+*closebuffer.txt*                 Closebuffer                    Version 0.1
+
+
 This allows you to close a buffer in Vim without affecting the window
 it's in.  Normally when you close a buffer, its window closes too,
 forcing you to redo your window layout.
