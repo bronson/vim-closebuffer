@@ -63,3 +63,7 @@ endfunction
 command! CloseBuffer call <SID>CloseBuffer(1)
 nnoremap <silent> <Plug>CloseBuffer :<C-u>CloseBuffer<CR>
 
+" Close buffer but not window.  See close-buffer.vim
+nmap <C-W>e     <Plug>CloseBuffer
+nmap <C-W><C-E> <Plug>CloseBuffer
+
